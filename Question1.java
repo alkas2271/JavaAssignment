@@ -5,15 +5,16 @@ public class Question1
     //Static Variable
 	 static String FirstName="Alka";
      static String LastName="Singh";
-     //Static Block
      static int age=23;
+	
+   //Static Block
 	 static
 	   { String FirstName="Shipra";
 	      String LastName="Raj";
 	      int age=22;
 	      System.out.println(FirstName+" "+LastName+" "+age);
 	   }
-	 //Static Method
+  //Static Method
 	 static void printfunction()
 	    {
 	      String FirstName="Vivek";
